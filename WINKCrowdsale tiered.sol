@@ -71,7 +71,7 @@ library SafeMath {
  */
  
  
-contract WINKCrowdsale {
+contract WinkIfYouLikeIt {
   using SafeMath for uint256;
 
   Token token;
@@ -111,7 +111,7 @@ contract WINKCrowdsale {
   
    uint256[5] fundingRate = [100000, 20000, 5000, 2000, 1000]; //Rave per Eth
    //uint256[5] fundingRate = [6000, 5500, 5000, 4500, 4000]; //Rave per Eth
-   uint256[5] fundingLimit = [120000, 18000, 6000, 3000, 90000]; //Max Rave Available per tier
+   uint256[5] fundingLimit = [100000, 20000, 5000, 2000, 1000]; //Max Rave Available per tier
    //uint256[5] fundingLimit = [2000000, 5000000, 9000000, 14000000, 20000000]; //Max Rave Available per tier
 
   /**
@@ -125,7 +125,7 @@ contract WINKCrowdsale {
   event FailedTransfer(address indexed to, uint256 value);
   event initialCrowdsale(uint256 _startTime, uint256 _endTime, uint256 _cap, uint256 cap, uint256 _rate, uint256 rate, address _wallet);
 
-  function WINKCrowdsale(uint256 _startTime, uint256 _endTime, uint256 _cap, address _wallet) public {
+  function WinkIfYouLikeIt(uint256 _startTime, uint256 _endTime, uint256 _cap, address _wallet) public {
     require(_startTime >= now);
     require(_endTime >= _startTime);
     require(_cap > 0);
