@@ -122,7 +122,7 @@ contract WinkIfYouLikeIt {
     require(_wallet != address(0));
     
     owner = msg.sender;
-    address _tokenAddr = 0x47fCa57ECb412BAC972466486ADdA1704EEEBeD7; //Token Contract Address
+    address _tokenAddr = 0x29fA00dCF17689c8654d07780F9E222311D6Bf0c; //Token Contract Address
     token = Token(_tokenAddr);
       
     startTime = _startTime;
