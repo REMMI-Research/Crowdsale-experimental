@@ -71,7 +71,7 @@ library SafeMath {
  */
  
  
-contract WinkIfYouLikeIt {
+contract WinkIfYouLike {
   using SafeMath for uint256;
 
   Token token;
@@ -101,8 +101,8 @@ contract WinkIfYouLikeIt {
   uint256 public tierNum = 0;
   
   //Funding Tiers  
-  uint256[5] fundingRate = [75000, 75000, 75000, 75000, 75000]; //WINK per Eth
-  uint256[5] fundingLimit = [600000000, 600000000, 600000000, 600000000, 600000000]; //Max WINKs Available per tier
+  uint256[5] fundingRate = [24000, 24000, 24000, 24000, 24000]; //WINK per Eth
+  uint256[5] fundingLimit = [180000000, 180000000, 180000000, 180000000, 180000000]; //Max WINKs Available per tier
 
   /**
    * event for token purchase logging
