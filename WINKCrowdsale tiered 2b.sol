@@ -71,7 +71,7 @@ library SafeMath {
  */
  
  
-contract WinkIfYouLike {
+contract WinkIfYouLikeIt {
   using SafeMath for uint256;
 
   Token token;
